@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://3dAssets/13076_Gothic_Wood_Fence_Panel_v2_l3.obj" type="ArrayMesh" id=2]
+
+[sub_resource type="Skin" id=1]
+bind_count = 3
+bind/0/name = ""
+bind/0/bone = -1
+bind/0/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/1/name = ""
+bind/1/bone = -1
+bind/1/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/2/name = ""
+bind/2/bone = -1
+bind/2/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+
+[sub_resource type="BoxShape" id=2]
+extents = Vector3( 100.337, 4.749, 52.3857 )
+
+[node name="Wall" type="Spatial"]
+
+[node name="Fence" type="MeshInstance" parent="."]
+transform = Transform( 0.01, 0, 0, 0, -4.37114e-10, 0.01, 0, -0.01, -4.37114e-10, 0, 0, 0 )
+mesh = ExtResource( 2 )
+skin = SubResource( 1 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="StaticBody" type="StaticBody" parent="Fence"]
+collision_layer = 4
+
+[node name="CollisionShape" type="CollisionShape" parent="Fence/StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.47684, 5.48758, 50.8065 )
+shape = SubResource( 2 )

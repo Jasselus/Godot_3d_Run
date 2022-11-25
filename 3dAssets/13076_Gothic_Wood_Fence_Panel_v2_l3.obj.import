@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/13076_Gothic_Wood_Fence_Panel_v2_l3.obj-a8f9c3e6ad8347c8222923ae04e5a33a.mesh"
+
+[deps]
+
+files=[ "res://.import/13076_Gothic_Wood_Fence_Panel_v2_l3.obj-a8f9c3e6ad8347c8222923ae04e5a33a.mesh" ]
+
+source_file="res://3dAssets/13076_Gothic_Wood_Fence_Panel_v2_l3.obj"
+dest_files=[ "res://.import/13076_Gothic_Wood_Fence_Panel_v2_l3.obj-a8f9c3e6ad8347c8222923ae04e5a33a.mesh", "res://.import/13076_Gothic_Wood_Fence_Panel_v2_l3.obj-a8f9c3e6ad8347c8222923ae04e5a33a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
