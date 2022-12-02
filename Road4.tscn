@@ -11,7 +11,7 @@ script = ExtResource( 2 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.913, 0.6, 1.5 )
 
 [node name="Wall3" parent="Obstacles" index="2"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.581039, 1, 10.6556 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.581, 0.6, 10.656 )
 
 [node name="Wall4" parent="Obstacles" index="3"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.61472, 0.6, 16.1889 )

@@ -20,6 +20,7 @@ var road_scenes = [
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	randomize()
+	get_tree().paused = true
 	runner.setup_jump(jump_length, jump_height, run_speed)
 	
 	for i in range(initial_road_count):
